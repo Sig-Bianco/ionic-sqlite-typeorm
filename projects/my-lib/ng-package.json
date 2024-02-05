@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../../ionic-sqlite-typeorm-app/node_modules/my-lib",
+  "lib": {
+    "entryFile": "src/public-api.ts"
+  },
+  "allowedNonPeerDependencies": [
+    "@capacitor/core",
+    "@capacitor-community/sqlite",
+    "typeorm",
+    "jeep-sqlite",
+    "@ionic/pwa-elements",
+    "@angular-builders/custom-webpack",
+    "terser-webpack-plugin"
+  ]
+}

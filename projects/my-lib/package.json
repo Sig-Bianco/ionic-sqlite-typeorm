@@ -1,0 +1,19 @@
+{
+  "name": "my-lib",
+  "version": "0.0.15",
+  "peerDependencies": {
+    "@angular/common": "^17.1.0",
+    "@angular/core": "^17.1.0"
+  },
+  "dependencies": {
+    "terser-webpack-plugin": "^5.3.10",
+    "@angular-builders/custom-webpack": "^17.0.0",
+    "@capacitor/core": "5.6.0",
+    "@capacitor-community/sqlite": "5.5.2",
+    "tslib": "^2.3.0",
+    "typeorm": "^0.3.20",
+    "jeep-sqlite": "2.5.8",
+    "@ionic/pwa-elements": "3.2.2"
+  },
+  "sideEffects": false
+}

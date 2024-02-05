@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - 4200:4200
+    volumes:
+      - .:/ionic-sqlite-typeorm
+    tty: true
